@@ -1,7 +1,8 @@
-Let's install Docker, Terraform & Kubernetes
+Let's install the Elastic Beanstalk CLI
 
-Start by cloning:
-`git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git`{{execute}}
+First, run the install script for AWS:
+`pip3 install awscli --upgrade --user`{{execute}}
 
-Install all the dependencies:
-`build-essential zlib1g-dev libssl-dev libncurses-dev libffi-dev libsqlite3-dev libreadline-dev libbz2-dev`
+Remember those **key pairs** we downloaded the other day? You'll need them in the next step.
+
+`aws configure`{{execute}}
