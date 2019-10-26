@@ -6,3 +6,5 @@ First, run the install script for AWS:
 Remember those **key pairs** we downloaded the other day? You'll need them in the next step.
 
 `aws configure`{{execute}}
+
+Use the key and secret from your CSV file.
